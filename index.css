@@ -1,0 +1,260 @@
+/* all */
+
+* {
+  box-sizing: border-box;
+  color: seashell;
+}
+
+body {
+  background-color: black;
+}
+
+
+
+/* Typeface */
+
+.nav {
+  height: 69px;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.carousel-section {
+  font-family: Helvetica, sans-serif;
+}
+
+.carousel-img > figure > figcaption {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.locations-section {
+  font-family: Helvetica, sans-serif;
+}
+
+.upper {
+  font-family: Helvetica, sans-serif;
+}
+
+.lower {
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+/* Navbar */
+
+.nav {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 25px;
+}
+
+
+
+
+/* Layout -> Hero-section*/
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  font-family: Helvetica, sans-serif;
+  width: 1200px;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.hero-content > h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-content > h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Layout -> Carousel-section*/
+
+
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-section > .carousel-content {
+  width: 1000px;
+  text-align: center;
+
+}
+
+.carousel-content > h2 {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.carousel-content > h4 {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carousel-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  width: 1000px;
+}
+
+.carousel-img > figure > figcaption {
+  text-align: center;
+}
+
+
+/* Layout -> Locations-section*/
+
+.locations-section {
+  display: flex;
+  justify-content: center;
+}
+
+.locations-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.locations-image > h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.locations-image > h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.locations-card {
+  margin-top: 15px;
+  text-align: center;
+  width: 300px;
+  background-color: black;
+
+}
+
+.locations-card > h2 {
+  padding: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.locations-card > h4 {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 30px;
+  line-height: 50px;
+}
+
+.cardrow {
+  display: flex;
+  gap: 40px;
+}
+
+
+/* Footer */
+
+.upper {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.upper > h2 {
+  padding: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.upper > h5 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
+
+.lower {
+  padding: 30px 20px;
+}
+
+.lower > h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Images, Logo */
+
+.nav img {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: auto;
+
+}
+
+
+.hero-image {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1iwl9y6*_ga*Njc4ODQ3MTU0OS4xNjc0NTgwMDYw*_ga_3LRZM6TM9L*MTY3OTYxNDQ0NS41OC4xLjE2Nzk2MTQ3NTAuNjAuMC4w");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-img > figure > img {
+  height: 200px;
+  width: 300px;
+  margin: 20px 16px 10px;
+}
+
+
+.locations-image {
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px ;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*6mh5fg*_ga*Njc4ODQ3MTU0OS4xNjc0NTgwMDYw*_ga_3LRZM6TM9L*MTY3OTYxNDQ0NS41OC4xLjE2Nzk2MjAzNTUuNjAuMC4w");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
